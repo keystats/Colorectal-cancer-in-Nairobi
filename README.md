@@ -33,11 +33,11 @@ The Cox model (adjusting for age, sex, and location) is summarized by this fores
 ![hazard_ratios_plot](https://github.com/user-attachments/assets/f6ddff45-0d82-4293-9232-11e50cd7ce48)
 
 
-# Key insights: 
+# Key insights
 In Nairobi, colorectal cancer is rising rapidly; urgent action is needed. The data suggest focusing on screening and education in areas like Embakasi/Kibera. Age <45 should not be overlooked, as younger patients increasingly present with advanced disease. Although the adjusted hazard ratios hint at disparities (e.g. Kibera vs Westlands), no predictor reached statistical significance— likely due to limited events. my transparent workflow (shared code and visualizations) aims to inform both public health officials and fellow analysts, bridging data science with health impact.
 
-# Project Details: 
+# Project Details
 All analyses were performed in R using packages like tidyverse, forecast, sf, survival, and ggsurvfit. Data management (imputation, cleaning) and model selection followed best practices. 
 
-# Conclusion: 
+# Conclusion
 This study transforms raw Nairobi cancer registry data into actionable intelligence. By combining statistical rigor with clear visuals, it uncovers hidden patterns (like the Embakasi hotspot and the under-45 stage trend). Policymakers and clinicians can use these insights to target interventions. As new data become available, this analysis framework can be updated to track progress and guide future cancer control efforts.
