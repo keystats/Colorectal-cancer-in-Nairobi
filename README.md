@@ -1,4 +1,4 @@
-## Colorectal Cancer Analysis in Nairobi
+# Colorectal Cancer Analysis in Nairobi
 This project uses Nairobi County health records (2018–2022) to map and model colorectal cancer across time, demographics, and geography. The goal was to translate raw data into actionable insights: identifying high-risk groups and areas, understanding trends, and guiding targeted interventions. Using 510 de-identified patient records, I applied a mix of data science and epidemiology methods. 
 
 # Data Cleaning and Trend Forecasting
