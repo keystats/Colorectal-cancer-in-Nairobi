@@ -3,15 +3,9 @@ title: "Colorectal Cancer in Nairobi"
 author: "Jackson Kahungu Njeri"
 date: "2025-05-09"
 output:
-  pdf_document:
-    latex_engine: xelatex    # use Unicode-capable engine
-    keep_tex: true           # retain .tex for debugging
+  github_document
 geometry: margin=1in
 highlight: tango
-header-includes:
-  - \usepackage{fontspec}      # load system font support
-  - \setmainfont{TeX Gyre Termes}
-  - \usepackage{graphicx}      # ensure graphic inclusion
 knitr:
   opts_chunk:
     echo: FALSE
@@ -20,6 +14,7 @@ knitr:
     fig.cap: ""
     out.width: "80%"
 ---
+
 
 ```{r setup, include=FALSE}
 library(knitr)
@@ -958,6 +953,4 @@ This forest plot displays the hazard ratios (HRs) and 95% confidence intervals f
 
 *Recommendations*: Future work should expand the dataset (include more years and other regions) and enrich variables (e.g. tumor stage, genetics, lifestyle). In Nairobi, targeted screening and awareness in young adults and hotspots like Embakasi/Kibera are warranted. Continued monitoring of trends is advised to validate the forecast. Finally, linking with health outcomes data or interventions (such as screening programs) would help assess impact and further refine models.
 
-```{r}
-knitr::include_graphics("images/my-figure.png")
-```
+

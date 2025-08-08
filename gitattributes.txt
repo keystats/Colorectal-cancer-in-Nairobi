@@ -1,3 +1,0 @@
-*.R linguist-detectable
-*.Rmd linguist-detectable
-*.html linguist-generated
